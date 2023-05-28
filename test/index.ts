@@ -14,3 +14,4 @@ app.Use("/home", bookRouter);
 app.Initialize();
 
 app.listen(8080, "localhost");
+console.log("Server listening http://localhost:8080")
